@@ -1,6 +1,6 @@
 //
 //  DetailEditView.swift
-//  FirstApp
+//  ScrumDingerApp
 //
 //  Created by Koty on 19/03/2024.
 //

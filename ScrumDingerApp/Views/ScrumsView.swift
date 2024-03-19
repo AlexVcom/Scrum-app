@@ -1,6 +1,6 @@
 //
 //  ScrumsView.swift
-//  FirstApp
+//  ScrumDingerApp
 //
 //  Created by Koty on 18/03/2024.
 //

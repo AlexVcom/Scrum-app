@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BA7164E2BA789F400E4D67E /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7164D2BA789F400E4D67E /* FirstAppApp.swift */; };
+		8BA7164E2BA789F400E4D67E /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7164D2BA789F400E4D67E /* ScrumdingerApp.swift */; };
 		8BA716502BA789F400E4D67E /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7164F2BA789F400E4D67E /* MeetingView.swift */; };
 		8BA716522BA789F600E4D67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA716512BA789F600E4D67E /* Assets.xcassets */; };
 		8BA716552BA789F600E4D67E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA716542BA789F600E4D67E /* Preview Assets.xcassets */; };
@@ -21,8 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8BA7164A2BA789F400E4D67E /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BA7164D2BA789F400E4D67E /* FirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppApp.swift; sourceTree = "<group>"; };
+		8BA7164A2BA789F400E4D67E /* ScrumDingerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumDingerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA7164D2BA789F400E4D67E /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		8BA7164F2BA789F400E4D67E /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		8BA716512BA789F600E4D67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BA716542BA789F600E4D67E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		8BA716412BA789F400E4D67E = {
 			isa = PBXGroup;
 			children = (
-				8BA7164C2BA789F400E4D67E /* FirstApp */,
+				8BA7164C2BA789F400E4D67E /* ScrumDingerApp */,
 				8BA7164B2BA789F400E4D67E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,26 +57,21 @@
 		8BA7164B2BA789F400E4D67E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BA7164A2BA789F400E4D67E /* FirstApp.app */,
+				8BA7164A2BA789F400E4D67E /* ScrumDingerApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BA7164C2BA789F400E4D67E /* FirstApp */ = {
+		8BA7164C2BA789F400E4D67E /* ScrumDingerApp */ = {
 			isa = PBXGroup;
 			children = (
 				8BA7165B2BA7931C00E4D67E /* Models */,
-				8BA7164D2BA789F400E4D67E /* FirstAppApp.swift */,
-				8BDC5E012BAA2EBB0051179E /* DetailEditView.swift */,
-				8BA7164F2BA789F400E4D67E /* MeetingView.swift */,
-				8BA716602BA795D100E4D67E /* CardView.swift */,
-				8BC6DCED2BA8DA720093A554 /* ScrumsView.swift */,
-				8BC6DCF22BA8E64E0093A554 /* DetailView.swift */,
-				8BDC5E032BAA43810051179E /* TrailingIconLabelStyle.swift */,
+				8BA7164D2BA789F400E4D67E /* ScrumdingerApp.swift */,
+				8BDC5E072BAA45870051179E /* Views */,
 				8BA716512BA789F600E4D67E /* Assets.xcassets */,
 				8BA716532BA789F600E4D67E /* Preview Content */,
 			);
-			path = FirstApp;
+			path = ScrumDingerApp;
 			sourceTree = "<group>";
 		};
 		8BA716532BA789F600E4D67E /* Preview Content */ = {
@@ -96,12 +91,25 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		8BDC5E072BAA45870051179E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BDC5E012BAA2EBB0051179E /* DetailEditView.swift */,
+				8BA7164F2BA789F400E4D67E /* MeetingView.swift */,
+				8BA716602BA795D100E4D67E /* CardView.swift */,
+				8BC6DCED2BA8DA720093A554 /* ScrumsView.swift */,
+				8BC6DCF22BA8E64E0093A554 /* DetailView.swift */,
+				8BDC5E032BAA43810051179E /* TrailingIconLabelStyle.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BA716492BA789F400E4D67E /* FirstApp */ = {
+		8BA716492BA789F400E4D67E /* ScrumDingerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BA716582BA789F600E4D67E /* Build configuration list for PBXNativeTarget "FirstApp" */;
+			buildConfigurationList = 8BA716582BA789F600E4D67E /* Build configuration list for PBXNativeTarget "ScrumDingerApp" */;
 			buildPhases = (
 				8BA716462BA789F400E4D67E /* Sources */,
 				8BA716472BA789F400E4D67E /* Frameworks */,
@@ -111,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = FirstApp;
+			name = ScrumDingerApp;
 			productName = FirstApp;
-			productReference = 8BA7164A2BA789F400E4D67E /* FirstApp.app */;
+			productReference = 8BA7164A2BA789F400E4D67E /* ScrumDingerApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8BA716452BA789F400E4D67E /* Build configuration list for PBXProject "FirstApp" */;
+			buildConfigurationList = 8BA716452BA789F400E4D67E /* Build configuration list for PBXProject "ScrumDingerApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BA716492BA789F400E4D67E /* FirstApp */,
+				8BA716492BA789F400E4D67E /* ScrumDingerApp */,
 			);
 		};
 /* End PBXProject section */
@@ -173,7 +181,7 @@
 				8BDC5E042BAA43810051179E /* TrailingIconLabelStyle.swift in Sources */,
 				8BC6DCEE2BA8DA720093A554 /* ScrumsView.swift in Sources */,
 				8BA7165F2BA7947A00E4D67E /* DailyScream.swift in Sources */,
-				8BA7164E2BA789F400E4D67E /* FirstAppApp.swift in Sources */,
+				8BA7164E2BA789F400E4D67E /* ScrumdingerApp.swift in Sources */,
 				8BA716612BA795D100E4D67E /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,12 +310,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FirstApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ScrumDingerApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,7 +324,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.av.FirstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.ScrumDingerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,12 +339,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FirstApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ScrumDingerApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.av.FirstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.ScrumDingerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BA716452BA789F400E4D67E /* Build configuration list for PBXProject "FirstApp" */ = {
+		8BA716452BA789F400E4D67E /* Build configuration list for PBXProject "ScrumDingerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BA716562BA789F600E4D67E /* Debug */,
@@ -363,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BA716582BA789F600E4D67E /* Build configuration list for PBXNativeTarget "FirstApp" */ = {
+		8BA716582BA789F600E4D67E /* Build configuration list for PBXNativeTarget "ScrumDingerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BA716592BA789F600E4D67E /* Debug */,
