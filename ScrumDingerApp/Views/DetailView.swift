@@ -1,10 +1,3 @@
-//
-//  DetailView.swift
-//  ScrumDingerApp
-//
-//  Created by Koty on 18/03/2024.
-//
-
 import SwiftUI
 
 struct DetailView: View {
@@ -16,7 +9,7 @@ struct DetailView: View {
     var body: some View {
         List {
             Section(header: Text("Meeting Info")){
-                NavigationLink(destination: MeetingView()) {
+                NavigationLink(destination: MeetingView(scrum: $scrum)) {
                     Label("Start Meeting", systemImage: "timer")
                         .font(.headline)
                         .foregroundColor(.accentColor)

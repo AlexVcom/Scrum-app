@@ -1,10 +1,3 @@
-//
-//  CardView.swift
-//  ScrumDingerApp
-//
-//  Created by Koty on 17/03/2024.
-//
-
 import SwiftUI
 
 struct CardView: View {
