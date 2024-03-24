@@ -1,17 +1,17 @@
 import SwiftUI
 
 struct MeetingHeaderView: View {
-    let secondElapsed: Int
+    let secondsElapsed: Int
     let secondRemaining: Int
     let theme: Theme
     
     private var totalSeconds: Int {
-        secondElapsed + secondRemaining
+        secondsElapsed + secondRemaining
     }
     
     private var progress: Double {
         guard totalSeconds > 0 else { return 1}
-        return Double(secondElapsed) / Double(totalSeconds)
+        return Double(secondsElapsed) / Double(totalSeconds)
     }
     
     private var minutesRemaining: Int {
@@ -26,7 +26,7 @@ struct MeetingHeaderView: View {
                 VStack(alignment: .leading) {
                     Text("Second Elapsed")
                         .font(.caption)
-                    Label("\(secondElapsed)", systemImage: "hourglass.tophalf.fill")
+                    Label("\(secondsElapsed)", systemImage: "hourglass.tophalf.fill")
                 }
                 Spacer()
                 VStack(alignment: .leading) {
@@ -46,7 +46,7 @@ struct MeetingHeaderView: View {
 
 struct MeetingHeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        MeetingHeaderView(secondElapsed: 60, secondRemaining: 180, theme: .bubblegum)
+        MeetingHeaderView(secondsElapsed: 60, secondRemaining: 180, theme: .bubblegum)
             .previewLayout(.sizeThatFits)
     }
 }
