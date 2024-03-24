@@ -1,10 +1,3 @@
-//
-//  ScrumsView.swift
-//  ScrumDingerApp
-//
-//  Created by Koty on 18/03/2024.
-//
-
 import SwiftUI
 
 struct ScrumsView: View {

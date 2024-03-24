@@ -1,10 +1,3 @@
-//
-//  DailyScream.swift
-//  ScrumDingerApp
-//
-//  Created by Koty on 17/03/2024.
-//
-
 import Foundation
 
 struct DailyScrum: Identifiable {
